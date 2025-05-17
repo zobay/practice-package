@@ -2,4 +2,6 @@
 
 namespace Zobay\PracticePackage;
 
-class PracticePackageClass {}
+class PracticePackageClass
+{
+}
