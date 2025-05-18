@@ -17,6 +17,7 @@ class ExampleTest extends TestCase
     public function canConvertKilogramsToPounds()
     {
         $pounds = Weight::kilograms(100)->toPounds();
+
         $this->assertEquals(220.46, $pounds);
     }
 }
